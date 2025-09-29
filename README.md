@@ -1,5 +1,6 @@
 ## VSD BabySoC Theory
 
+
 The project details the design of **BabySoC**, a compact, open-source, RISC-V System on Chip (SoC) for educational purposes, featuring a **RVMYTH** processor core, a **Phase-Locked Loop (PLL)** for stable clocking, and a **10-bit Digital-to-Analog Converter (DAC)** for mixed-signal communication. Built using **Sky130 technology**, BabySoC aims to provide a documented platform for learning digital-analog system design by enabling the DAC to convert digital data into analog signals, facilitating interaction with external devices for output.
 
 Below is a basic understanding document of theoretical concepts of my learnings about the BabySoC.
