@@ -6,8 +6,8 @@ Welcome to Week 2 of my VSD RISC V Tapeout Program journey! This week, I'll be e
 
 ```
 main (this branch) → Overview + links to theory & labs
-theory             → Conceptual write-ups (Fundamentals of SoC Design, etc.)
-labs               → Practical work (Verilog files, simulation logs, GTKWave screenshots)
+Theory             → Conceptual write-ups (Fundamentals of SoC Design, etc.)
+Labs               → Practical work (Verilog files, simulation logs, GTKWave screenshots)
 ```
 
 ---
