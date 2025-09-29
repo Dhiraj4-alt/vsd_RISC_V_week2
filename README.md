@@ -1,7 +1,5 @@
 # 🌎 VSD RISC-V Tapeout Program week 2
 
-## 📌 About This Repository
-
 Welcome to Week 2 of my VSD RISC V Tapeout Program journey! This week, I'll be exploring the fundamentals of System-on-Chip (SoC) design-understanding what an SoC is, its key components like CPU, memory, peripherals, and interconnects, and why BabySoC serves as a simplified model for learning these concepts. Alongside theory, I'll dive into hands-on labs with the VSDBabySoC project, using Icarus Verilog and GTKWave to simulate reset, clocking, and dataflow operations, then capture and explain waveforms. By the end of the week, I aim to connect conceptual knowledge with practical experience, building a strong foundation for deeper SoC design learning
 
 #### 📅 Repository Structure
@@ -12,22 +10,19 @@ theory             → Conceptual write-ups (Fundamentals of SoC Design, etc.)
 labs               → Practical work (Verilog files, simulation logs, GTKWave screenshots)
 ```
 
-
-
-
 ---
 
 ## 🧠 Part 1: Theory – Fundamentals of SoC Design
 
 In this section, I explore the conceptual side of SoC design:
 
-○ What is a System-on-Chip (SoC)?
+* What is a System-on-Chip (SoC)?
 
-○ Key Components: CPU, memory, peripherals, interconnect.
+* Key Components: CPU, memory,     peripherals, interconnect.
 
-○ Why BabySoC? → A simplified learning model for SoC design.
+* Why BabySoC? → A simplified learning model for SoC design.
 
-○ Role of Functional Modelling before RTL and physical design stages.
+* Role of Functional Modelling before RTL and physical design stages.
 
 
 📂 View Theory Notes here:
@@ -44,12 +39,9 @@ This section covers practical implementation using Icarus Verilog and GTKWave.
 
 1. Clone the BabySoC project repo.
 
-
 2. Compile Verilog modules with iverilog.
 
-
 3. Simulate and generate .vcd waveform files.
-
 
 4. Open waveforms in GTKWave and analyze:
 
@@ -58,8 +50,6 @@ Reset operation
 Clocking behavior
 
 Dataflow between modules
-
-
 
 5. Document observations with logs + screenshots.
 
@@ -75,6 +65,7 @@ Observed BabySoC behavior
 
 
 📂 View Lab Work here:
+
 👉 Labs Branch
 
 
