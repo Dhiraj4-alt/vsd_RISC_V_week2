@@ -68,8 +68,7 @@ Observed BabySoC behavior
 
 📂 View Lab Work here:
 
-👉 [Labs Branch]()
-
+👉 [Labs Branch](https://github.com/Dhiraj4-alt/vsd_RISC_V_week2/tree/Labs)
 
 ---
 
