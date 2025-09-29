@@ -11,6 +11,12 @@ Labs               → Practical work (Verilog files, simulation logs, GTKWave s
 ```
 
 ---
+## Reference 
+
+
+
+
+---
 
 ## 🧠 Part 1: Theory – Fundamentals of SoC Design
 
