@@ -57,7 +57,7 @@ SoCs are used in a vast array of devices:
 
 2. **Apple M-series:** The powerful SoCs found in modern MacBooks and iPads, like the M1 or M2.
 
-3. **Qualcomm Snapdragon:** A prevalent SoC in many Android phones and other devices, making it a common name for many consumers. Yes They are in your gaming phones
+3. **Qualcomm Snapdragon:** A prevalent SoC in many Android phones and other devices, making it a common name for many consumers. Yes They are in your gaming phones.
 
 4. **Samsung Exynos:** Samsung's proprietary SoC, found in some of their Galaxy phones and other devices.
 
