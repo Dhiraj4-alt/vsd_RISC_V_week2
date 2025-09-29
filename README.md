@@ -2,9 +2,7 @@
 
 ## 📌 About This Repository
 
-Welcome to Week 2 of my SoC
-
-journey! This week, I'll be exploring the fundamentals of System-on-Chip (SoC) design-understanding what an SoC is, its key components like CPU, memory, peripherals, and interconnects, and why BabySoC serves as a simplified model for learning these concepts. Alongside theory, I'll dive into hands-on labs with the VSDBabySoC project, using Icarus Verilog and GTKWave to simulate reset, clocking, and dataflow operations, then capture and explain waveforms. By the end of the week, I aim to connect conceptual knowledge with practical experience, building a strong foundation for deeper SoC design learning
+Welcome to Week 2 of my VSD RISC V Tapeout Program journey! This week, I'll be exploring the fundamentals of System-on-Chip (SoC) design-understanding what an SoC is, its key components like CPU, memory, peripherals, and interconnects, and why BabySoC serves as a simplified model for learning these concepts. Alongside theory, I'll dive into hands-on labs with the VSDBabySoC project, using Icarus Verilog and GTKWave to simulate reset, clocking, and dataflow operations, then capture and explain waveforms. By the end of the week, I aim to connect conceptual knowledge with practical experience, building a strong foundation for deeper SoC design learning
 
 #### 📅 Repository Structure
 
@@ -23,13 +21,13 @@ labs               → Practical work (Verilog files, simulation logs, GTKWave s
 
 In this section, I explore the conceptual side of SoC design:
 
-What is a System-on-Chip (SoC)?
+○ What is a System-on-Chip (SoC)?
 
-Key Components: CPU, memory, peripherals, interconnect.
+○ Key Components: CPU, memory, peripherals, interconnect.
 
-Why BabySoC? → A simplified learning model for SoC design.
+○ Why BabySoC? → A simplified learning model for SoC design.
 
-Role of Functional Modelling before RTL and physical design stages.
+○ Role of Functional Modelling before RTL and physical design stages.
 
 
 📂 View Theory Notes here:
