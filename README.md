@@ -27,12 +27,15 @@ Benefits of SoCs
 
 ### SoC are Cool because
 
-1. Miniaturization: Enables smaller and more portable electronic devices. 
+1. **Miniaturization:** Enables smaller and more portable electronic devices. 
 
-2. Performance: Reduced distances between components on a single chip improve signal integrity and speed. 
-3. Power Efficiency: Highly integrated designs often lead to lower overall power consumption. 
-4. Cost-Effectiveness: Mass production of a single complex chip can be more economical than manufacturing and assembling many separate chips. 
-5. Customization: SoCs can be tailored with specific components to meet the unique requirements of different electronic systems. 
+2. **Performance:** Reduced distances between components on a single chip improve signal integrity and speed. 
+
+3. **Power Efficiency:** Highly integrated designs often lead to lower overall power consumption. 
+
+4. **Cost-Effectiveness:** Mass production of a single complex chip can be more economical than manufacturing and assembling many separate chips. 
+
+5. **Customization:** SoCs can be tailored with specific components to meet the unique requirements of different electronic systems. 
 
 ## Where all can u find SoC
 
@@ -50,8 +53,12 @@ SoCs are used in a vast array of devices:
 
 ## Examples of Relatable SoCs 
 
-    1. **Apple A-series:** The processor at the core of iPhones, such as the A15 Bionic or A16 Bionic.
-    2. **Apple M-series:** The powerful SoCs found in modern MacBooks and iPads, like the M1 or M2.
-    3. **Qualcomm Snapdragon:** A prevalent SoC in many Android phones and other devices, making it a common name for many consumers. Yes They are in your gaming phones
-    4. **Samsung Exynos:** Samsung's proprietary SoC, found in some of their Galaxy phones and other devices.
-    5. **MediaTek:** Another major SoC manufacturer, with their chips integrated into a variety of consumer electronic devices.
+1. **Apple A-series:** The processor at the core of iPhones, such as the A15 Bionic or A16 Bionic.
+
+2. **Apple M-series:** The powerful SoCs found in modern MacBooks and iPads, like the M1 or M2.
+
+3. **Qualcomm Snapdragon:** A prevalent SoC in many Android phones and other devices, making it a common name for many consumers. Yes They are in your gaming phones
+
+4. **Samsung Exynos:** Samsung's proprietary SoC, found in some of their Galaxy phones and other devices.
+
+5. **MediaTek:** Another major SoC manufacturer, with their chips integrated into a variety of consumer electronic devices.
