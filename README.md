@@ -27,7 +27,8 @@ In this section, I explore the conceptual side of SoC design:
 
 
 📂 View Theory Notes here:
-👉 Theory Branch
+
+👉 [Theory Branch]()
 
 
 ---
@@ -67,7 +68,7 @@ Observed BabySoC behavior
 
 📂 View Lab Work here:
 
-👉 Labs Branch
+👉 [Labs Branch]()
 
 
 ---
