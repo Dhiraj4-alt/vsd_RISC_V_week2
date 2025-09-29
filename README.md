@@ -2,14 +2,17 @@
 
 ## 📌 About This Repository
 
-This repository documents my learning journey in the VSD RISC-V SoC Design Program. The focus is on understanding the fundamentals of System-on-Chip (SoC) design and applying them through hands-on labs using the VSDBabySoC project.
+Welcome to Week 2 of my SoC
 
-The repo is divided into two main parts:
+journey! This week, I'll be exploring the fundamentals of System-on-Chip (SoC) design-understanding what an SoC is, its key components like CPU, memory, peripherals, and interconnects, and why BabySoC serves as a simplified model for learning these concepts. Alongside theory, I'll dive into hands-on labs with the VSDBabySoC project, using Icarus Verilog and GTKWave to simulate reset, clocking, and dataflow operations, then capture and explain waveforms. By the end of the week, I aim to connect conceptual knowledge with practical experience, building a strong foundation for deeper SoC design learning
 
-1. Theory (Conceptual Understanding) – Summarizing SoC design concepts.
+#### 📅 Repository Structure
 
-
-2. Labs (Hands-on Functional Modelling) – Verilog simulations, waveform analysis, and observations.
+```
+main (this branch) → Overview + links to theory & labs
+theory             → Conceptual write-ups (Fundamentals of SoC Design, etc.)
+labs               → Practical work (Verilog files, simulation logs, GTKWave screenshots)
+```
 
 
 
@@ -87,15 +90,6 @@ Learned how functional modelling acts as a bridge before RTL/physical design.
 
 Successfully simulated VSDBabySoC and verified core operations with GTKWave.
 
-
-
----
-
-## 📅 Repository Structure
-
-main (this branch) → Overview + links to theory & labs
-theory             → Conceptual write-ups (Fundamentals of SoC Design, etc.)
-labs               → Practical work (Verilog files, simulation logs, GTKWave screenshots)
 
 
 ---
