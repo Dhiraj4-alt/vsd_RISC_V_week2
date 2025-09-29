@@ -28,7 +28,7 @@ In this section, I explore the conceptual side of SoC design:
 
 📂 View Theory Notes here:
 
-👉 [Theory Branch]()
+👉 [Theory Branch](https://github.com/Dhiraj4-alt/vsd_RISC_V_week2/tree/Theory)
 
 
 ---
