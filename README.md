@@ -1,15 +1,16 @@
 
 ## VSD BabySoC – Theory
 
-Welcome to the Week 1 repository for the VSD RISC-V Tapeout Program! This repository contains both theoretical and practical labs focused on understanding System-on-Chip (SoC) design using the BabySoC platform based on RVMYTH, a RISC-V core.
+The project details the design of **BabySoC**, a compact, open-source, RISC-V System on Chip (SoC) for educational purposes, featuring a **RVMYTH** processor core, a **Phase-Locked Loop (PLL)** for stable clocking, and a **10-bit Digital-to-Analog Converter (DAC)** for mixed-signal communication. Built using **Sky130 technology**, BabySoC aims to provide a documented platform for learning digital-analog system design by enabling the DAC to convert digital data into analog signals, facilitating interaction with external devices for output.
+Below is a basic understandinng document of theoritical concepts of my learnings about the BabySoC..
 
 ---
+<details>
+<summary> ### 📖 Theory – Fundamentals of SoC</summary>
 
-### 📖 Theory – Fundamentals of SoC
-
-### What is a System-on-Chip (SoC)?
+#### What is a System-on-Chip (SoC)?
 A System-on-Chip (SoC) is a compact integrated circuit that combines multiple components of a computer or electronic system onto a single chip. Instead of using separate chips for CPU, memory, and peripherals, an SoC integrates them, improving efficiency, reducing power consumption, and saving space. SoCs are used in smartphones, tablets, wearables, IoT devices, and embedded systems.
-
+</details>
 ---
 
 ### Key Components of an SoC
