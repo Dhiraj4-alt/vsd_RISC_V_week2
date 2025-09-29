@@ -5,94 +5,53 @@ The project details the design of **BabySoC**, a compact, open-source, RISC-V Sy
 Below is a basic understandinng document of theoritical concepts of my learnings about the BabySoC..
 
 ---
-<details>
-<summary> ### 📖 Theory – Fundamentals of SoC</summary>
 
-#### What is a System-on-Chip (SoC)?
-A System-on-Chip (SoC) is a compact integrated circuit that combines multiple components of a computer or electronic system onto a single chip. Instead of using separate chips for CPU, memory, and peripherals, an SoC integrates them, improving efficiency, reducing power consumption, and saving space. SoCs are used in smartphones, tablets, wearables, IoT devices, and embedded systems.
-</details>
----
+### 📖 Theory – Fundamentals of SoC
 
-### Key Components of an SoC
+A **System on a Chip (SoC)** is a **single integrated circuit (IC)** that combines multiple electronic components, such as processors, memory, input/output ports, and various functional units like GPUs and modems, into one compact chip. SoCs are foundational to modern electronics, notably in smartphones, tablets, and laptops, because their high integration reduces device size, decreases power consumption, optimizes performance by shortening signal paths, and offers significant cost benefits compared to traditional, multi-component architectures.  
 
-1. **CPU (Central Processing Unit)**  
-   - The brain of the SoC.  
-   - Executes instructions, performs calculations, and controls other components.
 
-2. **Memory**  
-   - **RAM**: Temporary storage for running programs and data.  
-   - **ROM/Flash**: Permanent storage for firmware and persistent data.
+### What SoC Have Inside
 
-3. **Peripherals and I/O Ports**  
-   - Interfaces for external devices (USB, camera, audio, display).  
-   - Facilitates communication between the SoC and the outside world.
+1. **Central Processing Unit (CPU):** The "brain" of the SoC, responsible for executing instructions and managing tasks for the overall system
 
-4. **Interconnect / Bus**  
-   - Connects CPU, memory, and peripherals.  
-   - Efficient interconnects ensure fast data transfer.
+2. **Memory:** Includes on-chip RAM **(Random Access Memory)** for temporary data storage and ROM **(Read-Only Memory)** for permanent system instructions and firmware.
 
-5. **Special Components**  
-   - **PLL (Phase-Locked Loop)**: Generates stable clock signals for synchronization.  
-   - **DAC (Digital-to-Analog Converter)**: Converts digital data into analog signals for devices like TVs or audio systems.
+3. **Input/Output (I/O) Interfaces:** Allows the SoC to communicate with other devices and components, such as USB, SPI, and I2C 
 
----
+4. **Power Management Units:** Circuits designed to manage and optimize the power consumption of the entire system, crucial for battery-powered devices 
 
-### Why Use BabySoC?
+5. **Digital Signal Processor (DSP):** Optimized for signal processing tasks, such as data collection, processing, and decoding images 
+6. **Connectivity Modules:** Integrated components for wireless communication, such as Wi-Fi and Bluetoot
+Benefits of SoCs
 
-- **Educational Platform**: BabySoC is fully open-source, allowing deep exploration of SoC design.  
-- **Hands-on Learning**: Integrates RVMYTH CPU, PLL, and DAC to simulate real-world SoC scenarios.  
-- **Digital-to-Analog Interfacing**: Lets students experiment with analog outputs from digital systems.  
-- **Compact & Testable**: Ideal for simulating and verifying RTL designs before actual tapeout.
+### SoC are Cool because
 
----
+1. Miniaturization: Enables smaller and more portable electronic devices. 
 
-### Functioning Model of RTL
+2. Performance: Reduced distances between components on a single chip improve signal integrity and speed. 
+3. Power Efficiency: Highly integrated designs often lead to lower overall power consumption. 
+4. Cost-Effectiveness: Mass production of a single complex chip can be more economical than manufacturing and assembling many separate chips. 
+5. Customization: SoCs can be tailored with specific components to meet the unique requirements of different electronic systems. 
 
-Before moving to physical design stages, the **Register-Transfer Level (RTL) model** allows verification of design functionality:
+## Where all can u find SoC
 
-1. **Behavioral Simulation**  
-   - Ensures each component (CPU, memory, DAC, PLL) behaves as expected.
+SoCs are used in a vast array of devices: 
 
-2. **Timing Verification**  
-   - Checks for setup and hold time violations, glitches, and clock synchronization issues.
+1. **Mobile Devices:** Smartphones and tablets heavily rely on SoCs for their compact design and diverse functionality. 
 
-3. **Optimization & Debugging**  
-   - Helps optimize combinational and sequential circuits, identify bottlenecks, and avoid synthesis mismatches.
+2. **Computers:** Used in laptops and desktops to integrate essential components. 
 
-4. **Importance**  
-   - RTL functioning model ensures that the physical design reflects intended functionality.  
-   - Reduces costly errors in tapeout and fabrication.
+3. **Automotive Systems:** Improving processing power and connectivity in modern vehicles. 
 
----
+4. **Wearable Devices:** Essential for integrating powerful computing into small, wearable form factors. 
 
-### Key Questions Answered
+5. **Medical Devices:** Enhancing processing capabilities in patient monitoring and diagnostic equipments.
 
-- **What is an SoC?**  
-  A mini-computer on a single chip integrating CPU, memory, and peripherals.
+## Examples of Relatable SoCs 
 
-- **Why BabySoC?**  
-  Provides a hands-on, documented platform for learning SoC design and analog interfacing.
-
-- **Role of RTL before physical design**  
-  Acts as a blueprint to verify logic, timing, and overall system functionality before synthesis and layout.
-
----
-
-## 🛠 Practical Labs
-
-Labs focus on verifying SoC components using open-source tools:
-
-- **Icarus Verilog (iverilog)** – Compile and simulate Verilog RTL designs.  
-- **Yosys** – Synthesize RTL code into gate-level netlists.  
-- **GTKWave** – View waveform outputs of simulations.  
-- **Sky130 PDK** – Test designs on a real-process design kit.
-
-**Labs include:**  
-1. Introduction to Verilog RTL and synthesis  
-2. Timing and optimization of combinational and sequential circuits  
-3. GLS, blocking vs non-blocking, and simulation-synthesis mismatch  
-4. Hierarchical vs flat synthesis and optimizations  
-
----
-
-## 📂 Repository Structure
+    1. **Apple A-series:** The processor at the core of iPhones, such as the A15 Bionic or A16 Bionic.
+    2. **Apple M-series:** The powerful SoCs found in modern MacBooks and iPads, like the M1 or M2.
+    3. **Qualcomm Snapdragon:** A prevalent SoC in many Android phones and other devices, making it a common name for many consumers. Yes They are in your gaming phones
+    4. **Samsung Exynos:** Samsung's proprietary SoC, found in some of their Galaxy phones and other devices.
+    5. **MediaTek:** Another major SoC manufacturer, with their chips integrated into a variety of consumer electronic devices.
