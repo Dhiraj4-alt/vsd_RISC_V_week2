@@ -11,12 +11,7 @@ Labs               → Practical work (Verilog files, simulation logs, GTKWave s
 ```
 
 ---
-## Reference 
 
-
-
-
----
 
 ## 🧠 Part 1: Theory – Fundamentals of SoC Design
 
@@ -101,7 +96,7 @@ Git/GitHub – Version control & documentation
 
 ---
 
-📖 References
+### 📖 References
 
 Fundamentals of SoC Design Notes
 
