@@ -6,7 +6,7 @@ The project details the design of **BabySoC**, a compact, open-source, RISC-V Sy
 Below is a basic understanding document of theoretical concepts of my learnings about the BabySoC.
 
 ---
-
+<details>
 ### 📖 Theory – Fundamentals of SoC
 
 A **System on a Chip (SoC)** is a **single integrated circuit (IC)** that combines multiple electronic components, such as processors, memory, input/output ports, and various functional units like GPUs and modems, into one compact chip. SoCs are foundational to modern electronics, notably in smartphones, tablets, and laptops, because their high integration:  
@@ -67,3 +67,5 @@ SoCs are used in a vast array of devices:
 3. **Qualcomm Snapdragon:** Prevalent in many Android phones and gaming devices 🐉  
 4. **Samsung Exynos:** Samsung's proprietary SoC, found in some Galaxy phones and other devices 📱  
 5. **MediaTek:** Another major SoC manufacturer, with chips integrated into a variety of consumer electronic devices 🎛
+
+</details>
