@@ -7,6 +7,7 @@ Below is a basic understanding document of theoretical concepts of my learnings 
 
 ---
 <details>
+   <summary> Funadamentals of SoC </summary>
 ### 📖 Theory – Fundamentals of SoC
 
 A **System on a Chip (SoC)** is a **single integrated circuit (IC)** that combines multiple electronic components, such as processors, memory, input/output ports, and various functional units like GPUs and modems, into one compact chip. SoCs are foundational to modern electronics, notably in smartphones, tablets, and laptops, because their high integration:  
