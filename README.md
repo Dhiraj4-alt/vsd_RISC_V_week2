@@ -71,3 +71,47 @@ SoCs are used in a vast array of devices:
 5. **MediaTek:** Another major SoC manufacturer, with chips integrated into a variety of consumer electronic devices 🎛
 
 </details>
+
+<details>
+<summary> Types Of SoC </summary>
+
+
+### 1. Microcontroller-based SoCs
+
+These SoCs are engineered for low-power consumption and executing simple, dedicated control functions.
+
+Core: Built around a microcontroller (MCU).
+
+Purpose: Designed for simple control tasks where minimal processing and maximum battery life are required.
+
+Applications: Ideal for loT devices, small sensors, basic home appliances, and embedded automotive systems.
+
+Key Advantage: Exceptional power efficiency and highly optimized for repetitive, real-time control loops.
+
+### 2. Microprocessor-based SoCs
+
+These architectures are designed for handling complex tasks, running full operating systems, and managing extensive data processing.
+
+Core: Features a powerful microprocessor (MPU).
+
+Purpose: To manage multiple concurrent tasks and support complex, interactive applications.
+
+Applications: Commonly found in smartphones, tablets, and advanced single-board computers that require high computational power.
+
+Key Advantage: Higher processing capability necessary for demanding, data-intensive, and interactive user experiences.
+
+### 3. Application-Specific SoCs (ASICs)
+
+These SoCs are custom-designed for maximum efficiency and speed in one specific, high-performance area.
+
+
+Core: Highly specialized logic and accelerated computing blocks.
+
+Purpose: Optimized for single-domain tasks that require massive parallel processing or extreme throughput.
+
+Applications: Graphics Processing Units (GPUs), AI/Machine Learning accelerators, high-speed network processors, and custom industrial controllers.
+
+Key Advantage: Achieves superior performance and energy efficiency for its specific task compared to general-purpose architectures.
+
+
+</detalis>
