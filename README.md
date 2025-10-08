@@ -115,3 +115,124 @@ Key Advantage: Achieves superior performance and energy efficiency for its speci
 
 
 </detalis>
+
+<details>
+<summary>VSD BabySoC</summary>
+
+### 🧠 VSDBabySoC Overview
+
+* BabySoC is a small, open-source System-on-Chip (SoC) built using the RISC-V architecture.
+
+* Designed to test 3 open-source IP cores — CPU, PLL, and DAC — and analyze their analog behavior.
+
+* Built for learning SoC integration of digital and analog blocks.
+
+
+
+---
+
+### ⚙️ Key Components
+
+1. **CPU – RVMYTH**
+
+* 32-bit RISC-V based microprocessor core developed by VSD Corp.
+
+* Implements RV32I instruction set (basic integer instructions).
+
+* Pipeline stages: IF → ID → EX → MEM → WB.
+
+* Receives clock from PLL and communicates externally via SPI interface.
+
+* Output is sent to DAC for analog conversion.
+
+* Runs at 1.8V for low power consumption.
+
+
+
+---
+
+2. **Clock Generator – 8x PLL**
+
+PLL (Phase-Locked Loop) generates a high-frequency clock from a slower reference clock.
+
+Main parts:
+
+* Phase Detector: Compares input and output phases.
+
+* Loop Filter: Removes unwanted noise.
+
+* VCO: Generates clock controlled by input voltage.
+
+* Feedback Divider: Divides frequency by 8 (8x PLL → output = 8× input frequency).
+
+
+**Purpose:**
+
+* Multiplies clock frequency for high-speed SoC operations.
+
+* Distributes clean, stable clock signals across the chip.
+
+* Reduces jitter and noise for reliable performance.
+
+
+
+
+---
+
+3. **Output Interface – 10-bit DAC**
+
+* DAC (Digital-to-Analog Converter) converts digital signals into continuous analog output.
+
+* Acts as a bridge between the digital CPU output and real-world analog devices.
+
+**Key Features:**
+
+* Resolution: 10-bit → 1024 output levels.
+
+* Speed: Determines how fast conversions occur (sample rate).
+
+
+* Used here for analog signal output of CPU data.
+
+
+
+---
+
+### ⚡ Power & Mixed-Signal Design
+
+* Mixed-signal SoC: Combines digital (RVMYTH) and analog (PLL + DAC) components.
+
+* Operates at multiple voltages —
+
+>> 1.8V → RVMYTH (digital)
+
+>> 3.3V → DAC and SPI (analog/peripheral)
+
+
+* **Level Shifters (LS):**
+
+>> Convert signals between 1.8V and 3.3V domains.
+
+>> Ensure correct communication between digital and analog parts.
+
+
+
+
+---
+
+### 🎓 Why BabySoC is Ideal for Learning
+
+* Simplified SoC with only 3 IP cores – CPU, PLL, DAC.
+
+* Demonstrates key SoC integration challenges like:
+
+* Clock generation and synchronization
+
+* Mixed voltage operation
+
+* Digital–analog interfacing
+
+
+Completely open-source – all IPs are transparent and editable.
+
+Great for understanding real-world SoC design concepts in a clean, educational setup.
