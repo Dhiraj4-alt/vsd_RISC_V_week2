@@ -259,7 +259,7 @@ This step bridges concept to implementation, helping students understand SoC sys
 
 ---
 
-## 🧾 Summary
+#### 🧾 Summary
 
 A System-on-Chip (SoC) combines CPU, memory, peripherals, and interconnects on a single silicon die.
 
