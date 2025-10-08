@@ -120,6 +120,7 @@ Key Advantage: Achieves superior performance and energy efficiency for its speci
 
 
 <details>
+
 <summary>VSD BabySoC</summary>
 
 ### 🧠 VSDBabySoC Overview
