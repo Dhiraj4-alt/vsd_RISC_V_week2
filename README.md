@@ -236,3 +236,35 @@ Main parts:
 Completely open-source – all IPs are transparent and editable.
 
 Great for understanding real-world SoC design concepts in a clean, educational setup.
+
+---
+
+🧩 Role of Functional Modelling
+
+Functional modelling is the first step in SoC design and verification.
+
+It checks whether the system’s logic and functionality work as expected before creating the detailed RTL or hardware layout.
+
+Helps in identifying and fixing design errors early, saving time and effort during later design stages.
+
+In the case of VSDBabySoC, functional modelling allows testing how the RVMYTH CPU, PLL, and DAC interact together in simulation.
+
+Tools like Verilog simulators can be used to verify data flow, clock synchronization, and digital-to-analog conversion behavior.
+
+This step bridges concept to implementation, helping students understand SoC system behavior before fabrication.
+
+
+</details>
+---
+
+🧾 Summary
+
+A System-on-Chip (SoC) combines CPU, memory, peripherals, and interconnects on a single silicon die.
+
+BabySoC provides a simplified environment to learn and experiment with core SoC principles — reducing complexity while keeping key elements intact.
+
+Functional modelling ensures that the design works correctly before moving to RTL design, synthesis, or physical implementation.
+
+By simulating BabySoC, learners gain hands-on experience with real SoC workflows — including design verification, integration, and signal-level understanding.
+
+This forms the foundation for mastering advanced SoC design topics and real-world chip development.
