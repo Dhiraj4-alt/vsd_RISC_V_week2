@@ -114,7 +114,7 @@ Applications: Graphics Processing Units (GPUs), AI/Machine Learning accelerators
 Key Advantage: Achieves superior performance and energy efficiency for its specific task compared to general-purpose architectures.
 
 
-</detalis>
+</details>
 
 <details>
 <summary> VSD BabySoC </summary>
